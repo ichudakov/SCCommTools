@@ -1,4 +1,10 @@
 #################
+## AutoCAD
+#################
+*.bak.cuix
+*.mnr
+
+#################
 ## Eclipse
 #################
 
@@ -15,10 +21,6 @@ local.properties
 .classpath
 .settings/
 .loadpath
-
-#AutoCAD Temporary and Backup Files
-*.bak.cuix
-*.mnr
 
 # External tool builders
 .externalToolBuilders/
