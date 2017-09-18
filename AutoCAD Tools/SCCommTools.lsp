@@ -5,10 +5,10 @@
 	(princ)
 )
 
-(defun C:CTMDGroupObjects ()
+(defun C:CTSpaceBomb ()
 	(vl-load-com)
 	(setq oApp (vlax-get-acad-object))
-	(vla-RunMacro oApp "SCCommTools.AcToolsMDGroupObjs.CTMDGroupObjects")
+	(vla-RunMacro oApp "SCCommTools.AcToolsSpaceBomb.CTSpaceBomb")
 	(princ)
 )
 
@@ -23,5 +23,12 @@
 	(vl-load-com)
 	(setq oApp (vlax-get-acad-object))
 	(vla-RunMacro oApp "SCCommTools.AcToolsUCS.CTRenameUCSList")
+	(princ)
+)
+
+(defun C:CTMDGroupObjects ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.AcToolsMDGroupObjs.CTMDGroupObjects")
 	(princ)
 )
