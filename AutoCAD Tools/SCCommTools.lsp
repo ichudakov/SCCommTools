@@ -1,7 +1,28 @@
+(defun C:CTImportUCSList ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.AcToolsUCS.CTImportUCSList")
+	(princ)
+)
+
+(defun C:CTLabelHighlightOrphaned ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.acToolsLabels.CTLabelHighlightOrphaned")
+	(princ)
+)
+
 (defun C:CTLightHole ()
 	(vl-load-com)
 	(setq oApp (vlax-get-acad-object))
 	(vla-RunMacro oApp "SCCommTools.AcToolsLightHole.CTLightHole")
+	(princ)
+)
+
+(defun C:CTRenameUCSList ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.AcToolsUCS.CTRenameUCSList")
 	(princ)
 )
 
@@ -12,19 +33,6 @@
 	(princ)
 )
 
-(defun C:CTImportUCSList ()
-	(vl-load-com)
-	(setq oApp (vlax-get-acad-object))
-	(vla-RunMacro oApp "SCCommTools.AcToolsUCS.CTImportUCSList")
-	(princ)
-)
-
-(defun C:CTRenameUCSList ()
-	(vl-load-com)
-	(setq oApp (vlax-get-acad-object))
-	(vla-RunMacro oApp "SCCommTools.AcToolsUCS.CTRenameUCSList")
-	(princ)
-)
 
 (defun C:CTMDGroupObjects ()
 	(vl-load-com)
