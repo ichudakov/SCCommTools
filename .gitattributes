@@ -3,6 +3,10 @@
 .gitignore export-ignore
 *Manual.docx export-ignore
 "Test Cases" export-ignore
+*.dwg export-ignore
+*.nwc export-ignore
+*.frm export-ignore
+*.frx export-ignore
 
 # Auto detect text files and perform LF normalization
 * text=auto
