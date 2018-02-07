@@ -1,5 +1,5 @@
 1
-Plates Cleanup
+Cleanup - Plates
 Removes small lines of less than 12 mm from Structure plates.
  3 
  1 
@@ -21,8 +21,8 @@ Object
 False
 Part Guid
 
-Stiffeners Cleanup
-Removes small lines of less than 12 mm from stiffeners.
+Cleanup - Stiffeners
+Removes small lines of less than 40 mm from stiffeners.
  3 
  1 
 Object Type
@@ -35,7 +35,7 @@ stiffener
  1 
 Length
  5 
-12
+40
  1 
  0 
 Object
