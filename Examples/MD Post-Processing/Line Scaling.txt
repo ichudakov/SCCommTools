@@ -1,0 +1,59 @@
+1
+Line Scale - Small
+Sets the line scale for small-size lines.
+ 2 
+ 1 
+Object Type
+ 3 
+line
+ 1 
+Length
+ 5 
+1501
+ 1 
+ 1 
+LinetypeScale
+ 0 
+False
+Part Guid
+1
+Line Scale - Medium
+Sets the line scale for medium-size lines.
+ 3 
+ 1 
+Object Type
+ 3 
+line
+ 1 
+Length
+ 6 
+1500
+ 1 
+Length
+ 5 
+3001
+ 1 
+ 1 
+LinetypeScale
+ 0 
+False
+Part Guid
+2
+Line Scale - Large
+Sets the line scale for large-size lines.
+ 2 
+ 1 
+Object Type
+ 3 
+line
+ 1 
+Length
+ 6 
+3000
+ 1 
+ 1 
+LinetypeScale
+ 0 
+False
+Part Guid
+3

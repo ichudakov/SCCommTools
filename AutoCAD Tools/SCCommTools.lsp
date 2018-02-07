@@ -40,3 +40,10 @@
 	(vla-RunMacro oApp "SCCommTools.AcToolsMDGroupObjs.CTMDGroupObjects")
 	(princ)
 )
+
+(defun C:CTMDPostProcess ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.AcToolsMDPostProcess.CTMDPostProcess")
+	(princ)
+)

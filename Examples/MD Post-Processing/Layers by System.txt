@@ -1,0 +1,37 @@
+1
+Layers by System - Visible
+Places visible Pipe geometry to different layers according to the System.
+ 2 
+ 1 
+Layer
+ 3 
+Visible Pipe
+ 0 
+System
+ 1 
+n/a
+ 1 
+ 1 
+Layer
+ 0 
+True
+System
+ - Visible
+Layers by System - Hidden
+Places hidden  Pipe geometry to different layers according to the System.
+ 2 
+ 1 
+Layer
+ 3 
+Hidden Pipe
+ 0 
+System
+ 1 
+n/a
+ 1 
+ 1 
+Layer
+ 0 
+True
+System
+ - Hidden
