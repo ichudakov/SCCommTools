@@ -1,0 +1,19 @@
+1
+Color PL09 in Red
+Changes the color of all PL09 plates to Red
+ 2 
+ 1 
+Layer
+ 3 
+plate
+ 0 
+Stock Name
+ 3 
+PL09
+ 1 
+ 1 
+Color
+ 0 
+False
+Part Guid
+10
