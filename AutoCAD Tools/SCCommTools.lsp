@@ -26,6 +26,13 @@
 	(princ)
 )
 
+(defun C:CTRemoveEnvelopes ()
+	(vl-load-com)
+	(setq oApp (vlax-get-acad-object))
+	(vla-RunMacro oApp "SCCommTools.AcToolsRemoveEnvelopes.CTRemoveEnvelopes")
+	(princ)
+)
+
 (defun C:CTSpaceBomb ()
 	(vl-load-com)
 	(setq oApp (vlax-get-acad-object))
